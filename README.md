@@ -1,2 +1,2 @@
 # rebeccafu
-this account might explode but let's find out
+personal website for Rebecca Fu
