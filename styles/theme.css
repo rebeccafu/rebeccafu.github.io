@@ -209,6 +209,12 @@ body {
   /* padding-right:10%; */
 }
 
+.projectRole {
+  font-size:18px;
+  padding-left:15%;
+  color:#777777
+}
+
 .card-title a {
   text-decoration:none;
   font-style: bold;
@@ -502,6 +508,11 @@ main {
   .projectDesc {
     padding-left:3%;
   }
+
+  .projectRole {
+    padding-left:3%;
+  }
+
 }
 
 .about-intro {
