@@ -81,7 +81,8 @@ nav a:hover{
 
 }
 .title {
-    margin:auto;
+    margin-left:10%;
+    margin-right:10%;
     display:flex;
     flex-direction: column;
     line-height:200%;
@@ -120,13 +121,7 @@ h2 {
   padding-right:10%;
 }
 
-h4 {
-  padding-left:10%;
-  padding-right:10%;
-}
-
 p {
-  margin: 30px;
   /* padding-left:10%;  
   padding-right:10%; */
 }
@@ -145,13 +140,6 @@ body {
 
 .title-intro {
   margin-top:5%;
-  padding-left:10%;
-  padding-right:10%;
-}
-
-.subtitle-intro {
-  padding-left:10%;
-  padding-right:10%;
 }
 
 .writing-intro {
@@ -161,17 +149,19 @@ body {
 
 .title-description {
   font-size:20px;
-  padding-left:7.5%;
-  padding-right:7.5%;
 }
 
-.caption {
-  margin-left:2%;
-  margin-right:4%;
+.projectSection {
+  margin-left:10%;
+  margin-right:10%;
+  /* display:flex;
+  flex-direction: column;
+  line-height:200%;
+  align-content:flex-start; */
 }
 
 .caption-234 {
-  margin-left:2%;
+  /* margin-left:2%; */
   padding-right:10%;
 }
 
@@ -184,7 +174,7 @@ body {
 
 .projectName {
   font-size:24px;
-  padding-left:15%;
+  /* padding-left:15%; */
 }
 
 .projectName a {
@@ -205,13 +195,13 @@ body {
 
 .projectDesc {
   font-size:20px;
-  padding-left:15%;
+  /* padding-left:15%; */
   /* padding-right:10%; */
 }
 
 .projectRole {
   font-size:18px;
-  padding-left:15%;
+  /* padding-left:15%; */
   color:#777777
 }
 
@@ -257,35 +247,35 @@ body {
 }
 
 #taroImage {
-  display: block;
-  max-height:400px;
+  /* display: block; */
+  max-height:350px;
   width: auto;
   height: auto;
-  margin-right:15%;
+  /* margin-right:15%; */
   object-fit: contain;
-  float:right;
+  /* float:right; */
   position:relative;
 }
 
 #veraImage {
-  display: block;
-  max-height:400px;
+  /* display: block; */
+  max-height:350px;
   width: auto;
   height: auto;
-  margin-right:15%;
+  /* margin-right:15%; */
   object-fit: contain;
-  float:right;
+  /* float:right; */
   position:relative;
 }
 
 #wardrobeImage {
-  display: block;
-  max-height:400px;
+  /* display: block; */
+  max-height:350px;
   width: auto;
   height: auto;
-  margin-right:15%;
+  /* margin-right:15%; */
   object-fit: contain;
-  float:right;
+  /* float:right; */
   position:relative;
 }
 
@@ -295,6 +285,16 @@ body {
 
 .column {
   display:inline-block;
+}
+
+.bottomSection {
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.mx-5 {
+  margin-right:0!important;
+  margin-left:0!important;
 }
 
 .other-projects {
@@ -501,28 +501,19 @@ main {
     height:100%;
   }
 
-  .projectName {
-    padding-left:3%;
-  }
-
-  .projectDesc {
-    padding-left:3%;
-  }
-
-  .projectRole {
-    padding-left:3%;
-  }
-
 }
 
 .about-intro {
   font-size:32px;
   padding-left:0!important;
-  margin: 30px;
+  margin-bottom: 30px;
+  margin-right:5%;
 }
 
 .about-description {
   font-size:20px;
+  margin-right:5%;
+  margin-bottom:5%;
 }
 
 .photos {
@@ -537,7 +528,10 @@ main {
 .aboutCard {
   display:flex;
   flex-direction:row;
-  padding:5%;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:5%;
+  
 }
 
 @media screen and (max-width:950px) {
