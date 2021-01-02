@@ -586,3 +586,15 @@ footer {
   margin-top:5%;
   margin-bottom:5%;
 }
+
+@media screen and (max-width:660px) {
+  footer {
+    margin-top:10%;
+  }
+  li {
+    font-size:15px;
+  }
+  .subtitle-home {
+    font-size:24px;
+  }
+}
