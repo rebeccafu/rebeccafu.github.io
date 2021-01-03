@@ -221,6 +221,11 @@ body {
   text-decoration:none;
 }
 
+.card-role {
+  font-size:18px;
+  color:gray;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -330,7 +335,7 @@ body {
 }
 
 .card-text {
-  font-size:16px;
+  font-size:18px;
   margin: 0 auto;
   text-align:left;
 }
